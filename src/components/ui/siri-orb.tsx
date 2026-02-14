@@ -46,7 +46,7 @@ const SiriOrb: React.FC<SiriOrbProps> = ({
         } as React.CSSProperties
       }
     >
-      <style jsx>{`
+      <style>{`
         @property --angle {
           syntax: "<angle>";
           inherits: false;
