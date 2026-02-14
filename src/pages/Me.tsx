@@ -19,10 +19,10 @@ function Me() {
   useDocumentTitle('Me | Milo Coombs')
 
   return (
-    <section>
-      <h1>Me</h1>
-      <p>{profile.bio}</p>
-      <p>
+    <section className="space-y-3">
+      <h1 className="text-3xl font-semibold tracking-tight">Me</h1>
+      <p className="text-slate-700">{profile.bio}</p>
+      <p className="text-slate-700">
         Based in {profile.location}. Current role: {profile.roles[0].title}.
       </p>
     </section>
