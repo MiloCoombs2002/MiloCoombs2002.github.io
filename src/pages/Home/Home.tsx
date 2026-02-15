@@ -1,7 +1,7 @@
 import Component from "@/components/ui/siri-orb";
 import { Link } from 'react-router-dom'
 
-import useDocumentTitle from '../hooks/useDocumentTitle'
+import useDocumentTitle from '../../hooks/useDocumentTitle'
 
 function Home() {
   useDocumentTitle('Home | Milo Coombs')

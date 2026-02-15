@@ -2,8 +2,8 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Me from './pages/Me'
-import Projects from './pages/Projects'
 import Notes from './pages/Notes'
+import Projects, { ProjectDetail } from './pages/Projects'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/me" element={<Me />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectDetail />} />
           <Route path="/notes" element={<Notes />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

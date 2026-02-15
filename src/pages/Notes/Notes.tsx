@@ -1,5 +1,5 @@
-import { notes } from '../content/notes'
-import useDocumentTitle from '../hooks/useDocumentTitle'
+import { notes } from '../../content/notes'
+import useDocumentTitle from '../../hooks/useDocumentTitle'
 
 function Notes() {
   useDocumentTitle('Notes | Milo Coombs')

@@ -2,8 +2,8 @@ import { useState } from 'react'
 import { Check, Copy, ExternalLink } from 'lucide-react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import briefMarkdown from '../content/me/brief.md?raw'
-import detailedMarkdown from '../content/me/detailed.md?raw'
+import briefMarkdown from '../../content/me/brief.md?raw'
+import detailedMarkdown from '../../content/me/detailed.md?raw'
 
 function Me() {
   const [selectedTab, setSelectedTab] = useState<'brief' | 'detailed'>('brief')
