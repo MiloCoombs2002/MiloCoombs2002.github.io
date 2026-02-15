@@ -9,9 +9,9 @@ const links = [
 
 function Navbar() {
   return (
-    <header className="md:sticky md:top-4">
+    <header className="w-full md:sticky md:top-4">
       <nav
-        className="flex flex-row flex-wrap gap-2 md:flex-col md:gap-2.5"
+        className="flex flex-row flex-wrap justify-start gap-2 md:flex-col md:gap-2.5"
         aria-label="Main navigation"
       >
         {links.map((link) => (

@@ -7,9 +7,9 @@ import Notes from './pages/Notes'
 
 function App() {
   return (
-    <div className="grid min-h-screen w-full grid-cols-[14rem_minmax(0,1fr)_14rem] items-start gap-5 p-6">
+    <div className="grid min-h-screen w-full grid-cols-1 items-start gap-5 p-4 md:grid-cols-[14rem_minmax(0,1fr)_14rem] md:p-6">
       <Navbar />
-      <main className="mx-auto w-full max-w-6xl pt-20 p-5">
+      <main className="mx-auto w-full max-w-6xl p-2 md:p-5 md:pt-20">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/me" element={<Me />} />

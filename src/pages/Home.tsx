@@ -18,7 +18,9 @@ function Home() {
             <p>In industry, I build production-grade ML models, platforms, and AI systems in finance</p>
             <p>In code, I work primarily in Python and TypeScript.</p>
           </div>
-          <Component/>
+          <div className="hidden origin-top-right xl:block xl:scale-100">
+            <Component/>
+          </div>
       </div>
       <p className="text-slate-700">
         See <Link to="/me" className="font-bold hover:underline-offset-1">@me</Link> for more details.
