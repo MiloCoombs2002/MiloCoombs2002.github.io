@@ -10,7 +10,6 @@
 
 - End-to-end delivery of an ML-enabled monitoring platform: Built core components of a new transaction monitoring system within a large financial institution, owning backend services, data flow, and frontend interfaces.
 - Real-time detection and inference systems: Designed and implemented a modular monitoring framework using statistical and lightweight ML models, with cached data access via Redis to support low-latency reads in a highly regulated, time-sensitive environment.
-- MLOps: Instrumented backend services (self-hosted MLflow server, ABS) with structured logging and tracing to support observability of experiments and production models, ensuring logic and inference were transparent and auditable.
 - Production AI integration: Architected and built end-to-end LLM orchestration pipeline, implementing RLHF (Bandit's algorithm) for prompt evaluation and a custom React UI displaying summaries of suspicious activity to accelerate customer decision-making.
 
 ### Data Scientist | Arwen AI ::: Jan 2025 - June 2025

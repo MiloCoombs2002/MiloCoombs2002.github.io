@@ -1,23 +1,27 @@
-# Project Two
+## Spectral Paths — Learning Structured Functions Without Black-Box Optimisation
 
-## Summary
+This project explores an alternative view of supervised learning:  
+instead of training opaque models through gradient descent, we can **construct structured approximations directly from the geometry of the input space**.
 
-Placeholder summary for project two.
+The approach begins by transforming features into an angular representation and expressing functions through **directional spectral components**.  
+Rather than building a full tensor product basis, the model searches for a small set of **spectral paths** — structured directions through the space of harmonic interactions that capture the dominant structure of the data.
 
-## Problem
+In this view, learning becomes a problem of **selecting and combining interpretable basis functions**, rather than training millions of parameters through iterative optimisation.
 
-Placeholder description of the challenge and context.
+The work draws inspiration from:
 
-## Approach
+- spectral methods and orthogonal polynomial bases  
+- approximation theory in high dimensions  
+- directional representations of multivariate functions  
+- structured sparsity and greedy basis construction  
+- geometric interpretations of tabular learning  
 
-Placeholder implementation strategy and key decisions.
+The central question is simple:
 
-## Tech Stack
+> Can complex tabular relationships be reconstructed from a small number of structured spectral components?
 
-- Python
-- FastAPI
-- PostgreSQL
+Spectral Paths explores a model that is **deterministic, interpretable, and analytically grounded** — aiming to bridge classical approximation theory and modern machine learning.
 
-## Outcome
+---
 
-Placeholder for outcomes, learnings, and next steps.
+**I'll be publishing the paper soon so stay tuned!**

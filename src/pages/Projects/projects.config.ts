@@ -14,7 +14,7 @@ export const projectConfig: ProjectMeta[] = [
     name: 'Spectral Geometry of Data',
     date: '2026-01',
     readTime: '1 min read',
-    overview: 'Placeholder summary for project two.',
+    overview: 'A structured approach to tabular learning that represents functions through directional spectral components, selecting a small set of interpretable basis paths to approximate complex relationships without black-box optimisation.',
     contentPath: '../../content/projects/project-two.md',
   },
 ]
