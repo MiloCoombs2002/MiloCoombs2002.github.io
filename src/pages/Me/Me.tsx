@@ -23,7 +23,6 @@ function Me() {
   return (
     <section className="space-y-3">
       <h1 className="font-['Georgia'] text-8xl font-base tracking-tight pb-4">about me</h1>
-
       <div className="flex items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <button

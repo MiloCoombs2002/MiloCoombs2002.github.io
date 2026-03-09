@@ -8,7 +8,7 @@ function Projects() {
 
   return (
     <section className="space-y-3">
-      <h1 className="text-3xl font-semibold tracking-tight">Projects</h1>
+      <h1 className="font-['Georgia'] text-8xl font-base tracking-tight pb-4">Projects</h1>
       <ul className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {projects.map((project) => (
           <li key={project.id} className="rounded-lg border border-slate-200 p-4 transition-colors hover:border-slate-400">
